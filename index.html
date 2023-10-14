@@ -6,11 +6,25 @@
     <title>TicTacToe</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="normalise.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="">
 </head>
 <body>
-    
+    <form id="form" action="styles.css" method="post">
+        <div class="form-field">
+            <label class="label-names" for="player1-input">Enter Name For Player-1
+            <input type="text" placeholder="Player-1" class="player1-input" required>
+            </label>
+            <label class="label-names" for="Player2">Enter Name For Player-2
+                <input type="text" placeholder="Player-2" class="player2-input" required>
+            </label>
+            <button class="start-button" type="button">Play</button>
+        </div>
+    </form>
+    <div class="end-screen-field">
+        <button type="button">Replay</button>
+    </div>
+    <div class="main-page"></div>
     <script src="script.js"></script>
 </body>
 </html>
